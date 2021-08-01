@@ -338,4 +338,6 @@ function csvToJson(csv){
     console.log(datas.length)
     console.log("YYYYYYYYYY")
 }
+console.log("ZZZZZZZZZZZZZZ")
 csvToJson('data-XHzgJ.csv')
+console.log("AAAAAAAAAAAAAA")
