@@ -331,3 +331,11 @@ function show(step){
 function hide(step){
     $(step).hide();
 }
+
+function csvToJson(csv){
+    datas=d3.csv(csv)
+    console.log("XXXXXXXXXX")
+    console.log(datas.length)
+    console.log("YYYYYYYYYY")
+}
+csvToJson('data-XHzgJ.csv')
