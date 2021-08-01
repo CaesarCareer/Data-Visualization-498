@@ -332,12 +332,7 @@ function hide(step){
     $(step).hide();
 }
 
-function csvToJson(csv){
-    datas=d3.csv(csv)
-    console.log("XXXXXXXXXX")
-    console.log(datas.length)
-    console.log("YYYYYYYYYY")
-}
 console.log("ZZZZZZZZZZZZZZ")
-csvToJson('data-XHzgJ.csv')
+var datas=d3.csv('data-XHzgJ.csv')
+console.log(datas.length)
 console.log("AAAAAAAAAAAAAA")
